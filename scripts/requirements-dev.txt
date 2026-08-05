@@ -1,0 +1,7 @@
+# Minimal developer requirements safe to install on Python 3.12.
+# Optional photo-processing dependencies (rembg, opencv, onnxruntime, numpy)
+# are platform- and Python-version-sensitive; see `scripts/requirements-photo.txt`
+# and install those in a Python 3.11 virtualenv if needed.
+Pillow==12.1.1
+beautifulsoup4==4.12.3
+requests==2.32.3

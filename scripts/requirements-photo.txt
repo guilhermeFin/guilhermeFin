@@ -1,0 +1,14 @@
+# Heavy photo-processing deps: install in a compatible Python (3.10/3.11) venv
+# Example: `pyenv install 3.11.4 && pyenv virtualenv 3.11.4 pf-venv && pyenv local pf-venv`
+# Then: `pip install -r scripts/requirements-photo.txt`
+
+# numpy for these packages may require a specific range; install in Python 3.11.
+numpy==1.26.4
+opencv-python==4.11.0.86
+rembg==2.0.55
+onnxruntime==1.24.4
+
+# The remainder are safe but listed for completeness
+beautifulsoup4==4.12.3
+requests==2.32.3
+Pillow==12.1.1
