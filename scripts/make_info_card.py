@@ -9,10 +9,10 @@ from pathlib import Path
 
 OUT = "info-card.svg"
 LINES = [
-    ("Now", "Open-source tinkerer"),
+    ("Now", "AI Business Analytics & Econometrics student / Building ML‑driven analytics & Next.js apps"),
     ("Prev", "SRE & platform"),
-    ("Stack", "Python • GitHub Actions • SVG"),
-    ("Highlights", "ASCII art, live heatmap, no JS")
+    ("Stack", "React (TS) • Next.js (App Router) • Tailwind CSS • Supabase (Postgres) • OpenAI • LangChain • Prisma/Drizzle • Vercel • GitHub Actions"),
+    ("Highlights", "Built a quant research OS and a 5‑asset self‑improving paper‑trading bot (AlphaForge / Hermes); shipped a 12‑section portfolio stress‑testing suite (Vantage); created M&A tooling that generates teasers/CIMs and a scored buyer‑universe (AdvisorBrain, Atlas); built a local command HUD with a sandboxed AI runner (vault‑os); developed multi‑model LLM review and routing systems (LLM Council, OmniRoute); and automated document sync and deployments across Railway/Google Apps Script, plus a Garmin Coach pipeline for endurance training.")
 ]
 
 def make_svg(lines, out_path, static=False):
