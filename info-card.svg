@@ -1,27 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="0 0 1800 1400">
   <rect rx="8" width="100%" height="100%" fill="#010409"/>
-  <rect x="0" y="0" width="100%" height="36" rx="8" fill="#0f1720"/>
-  <text x="18" y="28" font-family="Inter, sans-serif" font-size="22" fill="#c9d1d9">gui@github</text>
+  <rect x="0" y="0" width="100%" height="80" rx="8" fill="#0f1720"/>
+  <text x="28" y="62" font-family="Inter, sans-serif" font-size="56" fill="#c9d1d9">gui@github</text>
   <g transform="translate(0,0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.0s" fill="freeze"/>
-      <text x="18" y="70" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2"><tspan font-weight="700">Now</tspan></text>
-      <text x="140" y="70" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">AI Business Analytics &amp; Econometrics student at USF / Building ML‑driven</text>
-      <text x="140" y="94" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">analytics &amp; Next.js apps</text>
+      <text x="28" y="150" font-family="Inter, sans-serif" font-size="48" fill="#9aa3b2"><tspan font-weight="700">Now</tspan></text>
+      <text x="320" y="150" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">AI Business Analytics &amp; Econometrics student at USF /</text>
+      <text x="320" y="206" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">Building ML‑driven analytics &amp; Next.js apps</text>
     </g><g transform="translate(0,0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.12s" fill="freeze"/>
-      <text x="18" y="190" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2"><tspan font-weight="700">Stack</tspan></text>
-      <text x="140" y="190" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">React (TS) • Next.js (App Router) • Tailwind CSS • Supabase (Postgres) • OpenAI</text>
-      <text x="140" y="214" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">• LangChain • Prisma/Drizzle • Vercel • GitHub Actions</text>
+      <text x="28" y="490" font-family="Inter, sans-serif" font-size="48" fill="#9aa3b2"><tspan font-weight="700">Stack</tspan></text>
+      <text x="320" y="490" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">Python • TypeScript • OpenAI • Claude Code • React •</text>
+      <text x="320" y="546" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">Next.js • LangChain • PostgreSQL • Supabase • yfinance •</text>
+      <text x="320" y="602" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">Prisma • Tailwind CSS • Vercel • GitHub Actions</text>
     </g><g transform="translate(0,0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.24s" fill="freeze"/>
-      <text x="18" y="310" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2"><tspan font-weight="700">Highlights</tspan></text>
-      <text x="140" y="310" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">• Built a quantitative research operating system.</text>
-      <text x="140" y="334" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">• Created Hermes, a self-improving trading bot covering five asset classes.</text>
-      <text x="140" y="358" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">• Developed Vantage, a 12-section portfolio stress-testing suite designed for</text>
-      <text x="140" y="382" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">wealth managers.</text>
-      <text x="140" y="406" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">• Built M&amp;A tooling that generates teasers, Confidential Information</text>
-      <text x="140" y="430" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">Memorandums (CIMs), and a scored buyer universe.</text>
-      <text x="140" y="454" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">• Created a Garmin Coach pipeline for endurance training.</text>
-      <text x="140" y="478" font-family="Inter, sans-serif" font-size="20" fill="#9aa3b2">• Built an options trading bot based on a profitable, backtested trading edge.</text>
+      <text x="28" y="830" font-family="Inter, sans-serif" font-size="48" fill="#9aa3b2"><tspan font-weight="700">Highlights</tspan></text>
+      <text x="320" y="830" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">• Built a quantitative research operating system.</text>
+      <text x="320" y="886" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">• Created Hermes, a self-improving trading bot covering</text>
+      <text x="320" y="942" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">five asset classes.</text>
+      <text x="320" y="998" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">• Developed Vantage, a 12-section portfolio stress-testing</text>
+      <text x="320" y="1054" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">suite designed for wealth managers.</text>
+      <text x="320" y="1110" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">• Built M&amp;A tooling that generates teasers,</text>
+      <text x="320" y="1166" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">Confidential Information Memorandums (CIMs), and a scored</text>
+      <text x="320" y="1222" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">buyer universe.</text>
+      <text x="320" y="1278" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">• Created a Garmin Coach pipeline for endurance training.</text>
+      <text x="320" y="1334" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">• Built an options trading bot based on a profitable,</text>
+      <text x="320" y="1390" font-family="Inter, sans-serif" font-size="46" fill="#9aa3b2">backtested trading edge.</text>
     </g>
 </svg>
