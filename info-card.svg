@@ -1,18 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="300" viewBox="0 0 490 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
   <rect rx="8" width="100%" height="100%" fill="#010409"/>
   <rect x="0" y="0" width="100%" height="36" rx="8" fill="#0f1720"/>
-  <text x="18" y="22" font-family="Inter, sans-serif" font-size="14" fill="#c9d1d9">gui@github</text>
+  <text x="18" y="24" font-family="Inter, sans-serif" font-size="18" fill="#c9d1d9">gui@github</text>
   <g transform="translate(0,0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.0s" fill="freeze"/>
-      <text x="18" y="48" font-family="Inter, sans-serif" font-size="14" fill="#9aa3b2"><tspan font-weight="700">Now</tspan> <tspan x="100">AI Business Analytics & Econometrics student / Building ML‑driven analytics & Next.js apps</tspan></text>
+      <text x="18" y="58" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2"><tspan font-weight="700">Now</tspan></text>
+      <text x="120" y="58" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">AI Business Analytics &amp; Econometrics student at USF / Building ML‑driven analytics &amp;</text>
+      <text x="120" y="78" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">Next.js apps</text>
     </g><g transform="translate(0,0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.12s" fill="freeze"/>
-      <text x="18" y="92" font-family="Inter, sans-serif" font-size="14" fill="#9aa3b2"><tspan font-weight="700">Prev</tspan> <tspan x="100">SRE & platform</tspan></text>
+      <text x="18" y="158" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2"><tspan font-weight="700">Stack</tspan></text>
+      <text x="120" y="158" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">React (TS) • Next.js (App Router) • Tailwind CSS • Supabase (Postgres) • OpenAI • LangChain •</text>
+      <text x="120" y="178" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">Prisma/Drizzle • Vercel • GitHub Actions</text>
     </g><g transform="translate(0,0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.24s" fill="freeze"/>
-      <text x="18" y="136" font-family="Inter, sans-serif" font-size="14" fill="#9aa3b2"><tspan font-weight="700">Stack</tspan> <tspan x="100">React (TS) • Next.js (App Router) • Tailwind CSS • Supabase (Postgres) • OpenAI • LangChain • Prisma/Drizzle • Vercel • GitHub Actions</tspan></text>
-    </g><g transform="translate(0,0)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.36s" fill="freeze"/>
-      <text x="18" y="180" font-family="Inter, sans-serif" font-size="14" fill="#9aa3b2"><tspan font-weight="700">Highlights</tspan> <tspan x="100">Built a quant research OS and a 5‑asset self‑improving paper‑trading bot (AlphaForge / Hermes); shipped a 12‑section portfolio stress‑testing suite (Vantage); created M&A tooling that generates teasers/CIMs and a scored buyer‑universe (AdvisorBrain, Atlas); built a local command HUD with a sandboxed AI runner (vault‑os); developed multi‑model LLM review and routing systems (LLM Council, OmniRoute); and automated document sync and deployments across Railway/Google Apps Script, plus a Garmin Coach pipeline for endurance training.</tspan></text>
+      <text x="18" y="258" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2"><tspan font-weight="700">Highlights</tspan></text>
+      <text x="120" y="258" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">• Built a quantitative research operating system.</text>
+      <text x="120" y="278" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">• Created Hermes, a self-improving trading bot covering five asset classes.</text>
+      <text x="120" y="298" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">• Developed Vantage, a 12-section portfolio stress-testing suite designed for wealth managers.</text>
+      <text x="120" y="318" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">• Built M&amp;A tooling that generates teasers, Confidential Information Memorandums (CIMs),</text>
+      <text x="120" y="338" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">and a scored buyer universe.</text>
+      <text x="120" y="358" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">• Created a Garmin Coach pipeline for endurance training.</text>
+      <text x="120" y="378" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">• Built an options trading bot based on a profitable, backtested trading edge.</text>
     </g>
 </svg>
