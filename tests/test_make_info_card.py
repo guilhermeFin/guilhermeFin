@@ -22,14 +22,23 @@ class MakeInfoCardTests(unittest.TestCase):
             make_info_card.make_svg([("Highlights", "• Built a quantitative research operating system.\n• Created Hermes")], out_path, static=True)
             content = out_path.read_text(encoding="utf-8")
             self.assertIn("• Built a quantitative research operating system.", content)
-            self.assertIn("x=\"120\"", content)
+            self.assertIn('x="140"', content)
 
     def test_wraps_long_bullets_across_multiple_svg_lines(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             out_path = Path(tmpdir) / "info-card.svg"
             make_info_card.make_svg([("Highlights", "• This is a very long bullet that should wrap onto another line because it exceeds the available width.")], out_path, static=True)
             content = out_path.read_text(encoding="utf-8")
-            self.assertGreaterEqual(content.count('<text x="120"'), 2)
+            self.assertGreaterEqual(content.count('<text x="140"'), 2)
+
+    def test_uses_larger_text_and_matching_card_dimensions(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            out_path = Path(tmpdir) / "info-card.svg"
+            make_info_card.make_svg([("Now", "Hello")], out_path, static=True)
+            content = out_path.read_text(encoding="utf-8")
+            self.assertIn('width="960" height="520"', content)
+            self.assertIn('font-size="22"', content)
+            self.assertIn('font-size="20"', content)
 
 
 if __name__ == "__main__":
