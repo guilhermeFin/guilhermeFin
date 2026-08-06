@@ -17,9 +17,14 @@ LINES = [
 
 def make_svg(lines, out_path, static=False):
     w, h = 960, 520
+    wrap_limit = 60
+    line_height = 24
+    title_font = 22
+    key_font = 20
+    body_font = 18
     title = "gui@github"
     items = []
-    base_y = 58
+    base_y = 72
     for i, (k, v) in enumerate(lines):
         safe_key = escape(k)
         safe_value = escape(v)
@@ -27,7 +32,7 @@ def make_svg(lines, out_path, static=False):
         if not lines_for_card:
             lines_for_card = [safe_value]
 
-        first_y = base_y + i * 100
+        first_y = base_y + i * 120
         body_lines = []
         for raw_line in lines_for_card:
             wrapped = []
@@ -35,7 +40,7 @@ def make_svg(lines, out_path, static=False):
             current = ""
             for word in words:
                 candidate = f"{current} {word}".strip()
-                if len(candidate) <= 95:
+                if len(candidate) <= wrap_limit:
                     current = candidate
                 else:
                     if current:
@@ -47,7 +52,7 @@ def make_svg(lines, out_path, static=False):
                 wrapped = [raw_line]
             for wrapped_line in wrapped:
                 body_lines.append((wrapped_line, first_y))
-                first_y += 20
+                first_y += line_height
 
         if static:
             anim = ''
@@ -55,27 +60,27 @@ def make_svg(lines, out_path, static=False):
             begin = f"{i * 0.12}s"
             anim = f'''<g transform="translate(0,0)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="{begin}" fill="freeze"/>
-      <text x="18" y="{base_y + i * 100}" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2"><tspan font-weight="700">{safe_key}</tspan></text>
+      <text x="18" y="{base_y + i * 120}" font-family="Inter, sans-serif" font-size="{key_font}" fill="#9aa3b2"><tspan font-weight="700">{safe_key}</tspan></text>
 '''
             for j, (line, y_pos) in enumerate(body_lines):
                 indent = 120 if j > 0 else 120
                 if line.startswith("•"):
-                    anim += f'      <text x="{indent}" y="{y_pos}" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">{line}</text>\n'
+                    anim += f'      <text x="{indent}" y="{y_pos}" font-family="Inter, sans-serif" font-size="{body_font}" fill="#9aa3b2">{line}</text>\n'
                 else:
-                    anim += f'      <text x="{indent}" y="{y_pos}" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">{line}</text>\n'
+                    anim += f'      <text x="{indent}" y="{y_pos}" font-family="Inter, sans-serif" font-size="{body_font}" fill="#9aa3b2">{line}</text>\n'
             anim += '    </g>'
         if static:
-            rendered = [f'<text x="18" y="{base_y + i * 100}" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2"><tspan font-weight="700">{safe_key}</tspan></text>']
+            rendered = [f'<text x="18" y="{base_y + i * 120}" font-family="Inter, sans-serif" font-size="{key_font}" fill="#9aa3b2"><tspan font-weight="700">{safe_key}</tspan></text>']
             for j, (line, y_pos) in enumerate(body_lines):
-                rendered.append(f'<text x="120" y="{y_pos}" font-family="Inter, sans-serif" font-size="16" fill="#9aa3b2">{line}</text>')
+                rendered.append(f'<text x="120" y="{y_pos}" font-family="Inter, sans-serif" font-size="{body_font}" fill="#9aa3b2">{line}</text>')
             items.append("".join(rendered))
         else:
             items.append(anim)
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
-  <rect rx="8" width="100%" height="100%" fill="#010409"/>
-  <rect x="0" y="0" width="100%" height="36" rx="8" fill="#0f1720"/>
-  <text x="18" y="24" font-family="Inter, sans-serif" font-size="18" fill="#c9d1d9">{escape(title)}</text>
+  <rect rx="8" width="{w}" height="{h}" fill="#010409"/>
+  <rect x="0" y="0" width="{w}" height="44" rx="8" fill="#0f1720"/>
+  <text x="18" y="28" font-family="Inter, sans-serif" font-size="{title_font}" fill="#c9d1d9">{escape(title)}</text>
   {"".join(items)}
 </svg>'''
     Path(out_path).write_text(svg, encoding="utf-8")
