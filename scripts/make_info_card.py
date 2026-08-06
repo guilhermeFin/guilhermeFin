@@ -17,7 +17,7 @@ LINES = [
 
 def make_svg(lines, out_path, static=False):
     w, h = 490, 300
-    title = "avi@github"
+    title = "gui@github"
     items = []
     base_y = 48
     for i, (k, v) in enumerate(lines):
