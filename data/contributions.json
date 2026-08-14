@@ -1,22 +1,22 @@
 {
   "username": "guilhermeFin",
-  "generated_at": "2026-08-13T07:55:37Z",
+  "generated_at": "2026-08-14T07:52:50Z",
   "range": {
     "start": "2025-08-10",
+    "end": "2026-08-14"
+  },
+  "total_contributions": 437,
+  "active_days": 47,
+  "avg_per_active_day": 9.3,
+  "current_streak": {
+    "length": 11,
+    "start": "2026-08-03",
     "end": "2026-08-13"
   },
-  "total_contributions": 436,
-  "active_days": 46,
-  "avg_per_active_day": 9.5,
-  "current_streak": {
-    "length": 10,
-    "start": "2026-08-03",
-    "end": "2026-08-12"
-  },
   "longest_streak": {
-    "length": 10,
+    "length": 11,
     "start": "2026-08-03",
-    "end": "2026-08-12"
+    "end": "2026-08-13"
   },
   "best_day": {
     "date": "2026-05-14",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 71
+      "total": 72
     }
   ],
   "days": [
@@ -1551,6 +1551,10 @@
     },
     {
       "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
       "count": 0
     }
   ]
