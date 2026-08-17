@@ -1,22 +1,22 @@
 {
   "username": "guilhermeFin",
-  "generated_at": "2026-08-16T07:01:33Z",
+  "generated_at": "2026-08-17T07:17:50Z",
   "range": {
     "start": "2025-08-17",
+    "end": "2026-08-17"
+  },
+  "total_contributions": 472,
+  "active_days": 55,
+  "avg_per_active_day": 8.6,
+  "current_streak": {
+    "length": 14,
+    "start": "2026-08-03",
     "end": "2026-08-16"
   },
-  "total_contributions": 439,
-  "active_days": 49,
-  "avg_per_active_day": 9.0,
-  "current_streak": {
-    "length": 13,
-    "start": "2026-08-03",
-    "end": "2026-08-15"
-  },
   "longest_streak": {
-    "length": 13,
+    "length": 14,
     "start": "2026-08-03",
-    "end": "2026-08-15"
+    "end": "2026-08-16"
   },
   "best_day": {
     "date": "2026-05-14",
@@ -69,11 +69,11 @@
     },
     {
       "month": "2026-07",
-      "total": 87
+      "total": 99
     },
     {
       "month": "2026-08",
-      "total": 74
+      "total": 95
     }
   ],
   "days": [
@@ -1383,7 +1383,7 @@
     },
     {
       "date": "2026-07-09",
-      "count": 19
+      "count": 21
     },
     {
       "date": "2026-07-10",
@@ -1403,11 +1403,11 @@
     },
     {
       "date": "2026-07-14",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-07-15",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-07-16",
@@ -1419,7 +1419,7 @@
     },
     {
       "date": "2026-07-18",
-      "count": 0
+      "count": 4
     },
     {
       "date": "2026-07-19",
@@ -1431,7 +1431,7 @@
     },
     {
       "date": "2026-07-21",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-07-22",
@@ -1443,7 +1443,7 @@
     },
     {
       "date": "2026-07-24",
-      "count": 0
+      "count": 3
     },
     {
       "date": "2026-07-25",
@@ -1483,11 +1483,11 @@
     },
     {
       "date": "2026-08-03",
-      "count": 1
+      "count": 2
     },
     {
       "date": "2026-08-04",
-      "count": 17
+      "count": 31
     },
     {
       "date": "2026-08-05",
@@ -1535,6 +1535,10 @@
     },
     {
       "date": "2026-08-16",
+      "count": 6
+    },
+    {
+      "date": "2026-08-17",
       "count": 0
     }
   ]
